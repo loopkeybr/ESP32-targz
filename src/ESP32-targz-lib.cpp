@@ -122,7 +122,7 @@ static bool halt_on_error()
 
 static void targz_system_halt()
 {
-  log_e("System halted after error code #%d", _error); while(1) { yield(); }
+  log_e("System halted after error code #%d", _error);
 }
 
 static void setError( tarGzErrorCode code )
